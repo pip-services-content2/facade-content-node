@@ -1,0 +1,24 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.DashboardsOperationsV1 = exports.MessageTemplatesOperationsV1 = exports.ImageSetsOperationsV1 = exports.HelpOperationsV1 = exports.GuidesOperationsV1 = exports.TipsOperationsV1 = exports.FilesOperationsV1 = exports.ApplicationsOperationsV1 = exports.QuotesOperationsV1 = exports.TagsOperationsV1 = void 0;
+var TagsOperationsV1_1 = require("./TagsOperationsV1");
+Object.defineProperty(exports, "TagsOperationsV1", { enumerable: true, get: function () { return TagsOperationsV1_1.TagsOperationsV1; } });
+var QuotesOperationsV1_1 = require("./QuotesOperationsV1");
+Object.defineProperty(exports, "QuotesOperationsV1", { enumerable: true, get: function () { return QuotesOperationsV1_1.QuotesOperationsV1; } });
+var ApplicationsOperationsV1_1 = require("./ApplicationsOperationsV1");
+Object.defineProperty(exports, "ApplicationsOperationsV1", { enumerable: true, get: function () { return ApplicationsOperationsV1_1.ApplicationsOperationsV1; } });
+var FilesOperationsV1_1 = require("./FilesOperationsV1");
+Object.defineProperty(exports, "FilesOperationsV1", { enumerable: true, get: function () { return FilesOperationsV1_1.FilesOperationsV1; } });
+var TipsOperationsV1_1 = require("./TipsOperationsV1");
+Object.defineProperty(exports, "TipsOperationsV1", { enumerable: true, get: function () { return TipsOperationsV1_1.TipsOperationsV1; } });
+var GuidesOperationsV1_1 = require("./GuidesOperationsV1");
+Object.defineProperty(exports, "GuidesOperationsV1", { enumerable: true, get: function () { return GuidesOperationsV1_1.GuidesOperationsV1; } });
+var HelpOperationsV1_1 = require("./HelpOperationsV1");
+Object.defineProperty(exports, "HelpOperationsV1", { enumerable: true, get: function () { return HelpOperationsV1_1.HelpOperationsV1; } });
+var ImageSetsOperationsV1_1 = require("./ImageSetsOperationsV1");
+Object.defineProperty(exports, "ImageSetsOperationsV1", { enumerable: true, get: function () { return ImageSetsOperationsV1_1.ImageSetsOperationsV1; } });
+var MessageTemplatesOperationsV1_1 = require("./MessageTemplatesOperationsV1");
+Object.defineProperty(exports, "MessageTemplatesOperationsV1", { enumerable: true, get: function () { return MessageTemplatesOperationsV1_1.MessageTemplatesOperationsV1; } });
+var DashboardsOperationsV1_1 = require("./DashboardsOperationsV1");
+Object.defineProperty(exports, "DashboardsOperationsV1", { enumerable: true, get: function () { return DashboardsOperationsV1_1.DashboardsOperationsV1; } });
+//# sourceMappingURL=index.js.map

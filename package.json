@@ -1,0 +1,72 @@
+{
+    "name": "facade-content-node",
+    "version": "1.0.0",
+    "author": "Conceptual Vision Consulting LLC",
+    "description": "Facade operations for content management Pip.Services in Node.js / ES2017",
+    "contributors": [
+        {
+            "name": "Sergey Seroukhov",
+            "email": "seroukhov@gmail.com"
+        }
+    ],
+    "main": "./obj/src/index.js",
+    "typings": "./obj/src/index.d.ts",
+    "keywords": [
+        "pip.services",
+        "content management",
+        "rest api",
+        "client facade"
+    ],
+    "noAnalyze": true,
+    "repository": {
+        "type": "git",
+        "url": "ssh://git@github.com:pip-services-content2/facade-content-node.git"
+    },
+    "license": "Commercial",
+    "engines": {
+        "node": ">=0.6.14"
+    },
+    "private": true,
+    "scripts": {
+        "start": "node app",
+        "test": "mocha -t 10000 -R spec -u tdd --recursive ./obj/test",
+        "benchmark": "matcha -R clean -I tdd ./benchmark/run.js"
+    },
+    "dependencies": {
+        "pip-services3-commons-nodex": "^1.0.*",
+        "pip-services3-components-nodex": "^1.4.*",
+        "pip-services3-container-nodex": "^1.0.*",
+        "pip-services3-rpc-nodex": "^1.2.*",
+        "client-attachments-node": "^1.0.*",
+        "client-quotes-node": "^1.0.*",
+        "client-tags-node": "^1.0.*",
+        "client-applications-node": "^1.0.*",
+        "client-tips-node": "^1.0.*",
+        "client-guides-node": "^1.0.*",
+        "client-help-node": "^1.0.*",
+        "client-imagesets-node": "^1.0.*",
+        "client-files-node": "^1.0.*",
+        "client-dashboards-node": "^1.0.*",
+        "client-msgtemplates-node": "^1.0.*"
+    },
+    "devDependencies": {
+        "@types/node": "*",
+        "@types/mocha": "*",
+        "@types/chai": "*",
+        "mocha": "*",
+        "chai": "*",
+        "matcha": "*",
+        "restify": "4.3.0",
+        "service-attachments-node": "^1.0.*",
+        "service-quotes-node": "^1.0.*",
+        "service-tags-node": "^1.0.*",
+        "service-applications-node": "^1.0.*",
+        "service-tips-node": "^1.0.*",
+        "service-guides-node": "^1.0.*",
+        "service-help-node": "^1.0.*",
+        "service-imagesets-node": "^1.0.*",
+        "service-files-node": "^1.0.*",
+        "service-dashboards-node": "^1.0.*",
+        "service-emailtemplates-node": "^1.0.*"
+    }
+}
